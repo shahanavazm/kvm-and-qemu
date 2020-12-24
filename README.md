@@ -18,6 +18,11 @@ another example command:
 
 qemu-system-x86_64   -drive file=image_file,format=qcow2   -m 4096 -enable-kvm -M q35   -cpu host -smp 4,sockets=1,cores=4,threads=1   -bios /usr/share/qemu/bios.bin -boot menu=on   -cdrom iso_image_lm.iso -soundhw all
 
+keyboard shortcut:
+
+alt ctrl g to capture mouse pointer.
+alt ctrl f to enable/disable full screen.
+
 references:
 
 arch qemu wiki: https://wiki.archlinux.org/index.php/QEMU
