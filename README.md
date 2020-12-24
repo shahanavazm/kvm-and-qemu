@@ -6,7 +6,7 @@ pacman -S qemu
 
 create image file in qcow2 format so that all space is not allocated at once:
 
-qemu-img create -f qcow2 image_file_windows10 15G
+qemu-img create -f qcow2 image_file_windows10 30G
 
 start the vm:
 
