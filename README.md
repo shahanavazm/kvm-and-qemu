@@ -21,6 +21,7 @@ qemu-system-x86_64   -drive file=image_file,format=qcow2   -m 4096 -enable-kvm -
 keyboard shortcut:
 
 alt ctrl g to capture mouse pointer.
+
 alt ctrl f to enable/disable full screen.
 
 references:
