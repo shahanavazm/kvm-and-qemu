@@ -10,11 +10,11 @@ qemu-img create -f qcow2 image_file_windows10 30G
 
 start the vm:
 
-qemu-system-x86_64 -enable-kvm -cpu host -m 4096 -boot menu=on -soundhw all -smp 4 -drive file=image_file_windows10,format=qcow2
+qemu-system-x86_64 -enable-kvm -cpu host -m 4096 -boot menu=on -soundhw all -smp 2 -drive file=image_file_windows10,format=qcow2
 
 -cpu host option to make QEMU emulate the host's exact CPU. If you do not do this, it may be trying to emulate a more generic CPU.
 
--smp 4 allocated 4 cpu units to the guest.
+-smp 2 for dual core machine set it to use 2 cpu units
 
 another example command:
 
