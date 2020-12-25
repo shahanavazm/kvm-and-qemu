@@ -1,4 +1,4 @@
-# kvm-and-qemu
+# Using KVM thru QEMU
 
 ## Install qemu in arch
 pacman -S qemu
