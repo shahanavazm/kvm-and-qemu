@@ -27,6 +27,8 @@ Youtube videos display is not so crisp.
 
 Maybe KVM is better suited for server applications.
 
+I am reverting to Virtualbox for Windows 10 VM.
+
 ## References
 arch qemu wiki: https://wiki.archlinux.org/index.php/QEMU
 
