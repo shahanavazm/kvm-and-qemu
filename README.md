@@ -20,6 +20,13 @@ alt ctrl g to capture mouse pointer.
 
 alt ctrl f to enable/disable full screen.
 
+## Conclusion
+Audio in windows 10 lags a bit.
+
+Youtube videos display is not so crisp.
+
+Maybe KVM is better suited for server applications.
+
 ## References
 arch qemu wiki: https://wiki.archlinux.org/index.php/QEMU
 
