@@ -3,7 +3,7 @@
 ## Install qemu in arch
 pacman -S qemu
 
-## Create image file in qcow2 format so that all space is not allocated at once, with 30G space
+## Create an image file in qcow2 format so that all space is not allocated at once, with 30G of space
 qemu-img create -f qcow2 image_file_windows10 30G
 
 ## Start the vm
